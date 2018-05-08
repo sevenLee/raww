@@ -8,4 +8,4 @@ Dynamical, simplicity react table component
 npm install raww
 ```
 # Dependency
-base on `react-bootstrap` so farm it will be removed inthe future.
+base on `react-bootstrap` so far, it will be removed in the future.
