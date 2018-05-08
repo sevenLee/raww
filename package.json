@@ -2,6 +2,7 @@
   "name": "raww",
   "version": "1.0.1",
   "description": "Dynamical table component for react",
+  "repository": "https://github.com/sevenLee/raww",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --watch",
