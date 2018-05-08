@@ -1,6 +1,6 @@
 {
   "name": "raww",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dynamical table component for react",
   "repository": "https://github.com/sevenLee/raww",
   "main": "dist/index.js",
