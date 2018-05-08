@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Raw Table Test Raw Table render mock data should render correctly with mock data 1`] = `
+<div
+  className="table-wrapper"
+>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="bo-table"
+    condensed={false}
+    hover={false}
+    responsive={true}
+    striped={false}
+  >
+    <thead>
+      <tr>
+        <th
+          className="text-right"
+          key="0"
+          style={Object {}}
+        >
+          <span>
+            Player ID
+          </span>
+        </th>
+        <th
+          className="text-right"
+          key="1"
+          style={Object {}}
+        >
+          <span>
+            Partner
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className=""
+        key="0"
+        onClick={[Function]}
+      >
+        <td
+          className="text-right"
+          key="0"
+          style={Object {}}
+        >
+          playerId1
+        </td>
+        <td
+          className="text-right"
+          key="1"
+          style={Object {}}
+        >
+          a1
+        </td>
+      </tr>
+      <tr
+        className=""
+        key="1"
+        onClick={[Function]}
+      >
+        <td
+          className="text-right"
+          key="0"
+          style={Object {}}
+        >
+          playerId2
+        </td>
+        <td
+          className="text-right"
+          key="1"
+          style={Object {}}
+        >
+          a2
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</div>
+`;
+
+exports[`Raw Table Test Raw Table render mock data should render index column automatically when hasIndex true 1`] = `
+<div
+  className="table-wrapper"
+>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="bo-table"
+    condensed={false}
+    hover={false}
+    responsive={true}
+    striped={false}
+  >
+    <thead>
+      <tr>
+        <th
+          className="text-right"
+          key="0"
+          style={
+            Object {
+              "width": 45,
+            }
+          }
+        >
+          <span>
+            #
+          </span>
+        </th>
+        <th
+          className="text-right"
+          key="1"
+          style={Object {}}
+        >
+          <span>
+            Player ID
+          </span>
+        </th>
+        <th
+          className="text-right"
+          key="2"
+          style={Object {}}
+        >
+          <span>
+            Partner
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className=""
+        key="1"
+        onClick={[Function]}
+      >
+        <td
+          className=" text-index"
+          key="0"
+        >
+          1
+        </td>
+        <td
+          className="text-right"
+          key="1"
+          style={Object {}}
+        >
+          playerId1
+        </td>
+        <td
+          className="text-right"
+          key="2"
+          style={Object {}}
+        >
+          a1
+        </td>
+      </tr>
+      <tr
+        className=""
+        key="2"
+        onClick={[Function]}
+      >
+        <td
+          className=" text-index"
+          key="0"
+        >
+          2
+        </td>
+        <td
+          className="text-right"
+          key="1"
+          style={Object {}}
+        >
+          playerId2
+        </td>
+        <td
+          className="text-right"
+          key="2"
+          style={Object {}}
+        >
+          a2
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+</div>
+`;
+
+exports[`Raw Table Test should render children (tfoot) correctly 1`] = `
+<div
+  className="table-wrapper"
+>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="bo-table"
+    condensed={false}
+    hover={false}
+    responsive={true}
+    striped={false}
+  >
+    <thead>
+      <tr />
+    </thead>
+    <tbody />
+    <tfoot
+      className="table-tfoot"
+    >
+      <tr>
+        <td>
+          has tfoot
+        </td>
+      </tr>
+    </tfoot>
+  </Table>
+</div>
+`;
+
+exports[`Raw Table Test should render description correctly 1`] = `
+<div
+  className="table-wrapper"
+>
+  <div
+    className="table-description"
+  >
+    <span>
+      has description
+    </span>
+  </div>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="bo-table"
+    condensed={false}
+    hover={false}
+    responsive={true}
+    striped={false}
+  >
+    <thead>
+      <tr />
+    </thead>
+    <tbody />
+  </Table>
+</div>
+`;
+
+exports[`Raw Table Test should render empty table correctly 1`] = `
+<div
+  className="table-wrapper"
+>
+  <Table
+    bordered={false}
+    bsClass="table"
+    className="bo-table"
+    condensed={false}
+    hover={false}
+    responsive={true}
+    striped={false}
+  >
+    <thead>
+      <tr />
+    </thead>
+    <tbody />
+  </Table>
+</div>
+`;

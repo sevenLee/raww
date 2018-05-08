@@ -1,0 +1,84 @@
+{
+  "name": "raww",
+  "version": "1.0.0",
+  "description": "Dynamical table component for react",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "npm run clean && webpack",
+    "clean": "rimraf dist",
+    "test": "cross-env NODE_ENV=test jest --no-cache"
+  },
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "src"
+  ],
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [],
+    "modulePaths": [
+      "<rootDir>/src",
+      "<rootDir>/node_modules"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest.config.jsx"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "md"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "testMatch": [
+      "<rootDir>/__test__/*.{js,jsx,mjs}"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "testEnvironment": "jsdom"
+  },
+  "author": {
+    "name": "seven lee",
+    "email": "sevenlee968@gmail.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-jest": "^22.4.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cross-env": "^5.1.3",
+    "enzyme": "3.1.1",
+    "enzyme-adapter-react-16": "1.0.4",
+    "enzyme-to-json": "3.2.2",
+    "jest": "22.0.0",
+    "react-test-renderer": "^16.3.2",
+    "rimraf": "^2.6.2",
+    "webpack": "3.8"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2"
+  }
+}
